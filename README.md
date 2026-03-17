@@ -1,57 +1,115 @@
-Project Title
+Global Ads Analytics Dashboard
+📌 Project Overview
 
-Global Ads Performance Analytics Dashboard
+This project presents an interactive business intelligence dashboard that analyzes global digital advertising performance across campaigns, regions, platforms, and time. The dashboard provides insights into key marketing metrics to help teams optimize ad spend and improve ROI.
 
-Project Overview
+🎯 Business Problem
 
-End-to-end marketing analytics project built using MySQL, Power BI, and Tableau.
-The goal is to analyze advertising campaign performance across platforms and countries.
+Marketing teams often struggle to:
 
-Tools Used
+Understand which campaigns deliver the best return
 
-MySQL (Data Cleaning & Transformation)
+Compare performance across platforms and regions
 
-Power BI (Interactive Dashboard)
+Track spend efficiency over time
 
-Tableau (Data Visualization)
+Make data‑driven budget allocation decisions
 
-Excel (Data Preview)
+This dashboard consolidates advertising data into interactive visuals that clarify marketing performance and inform strategy.
 
-Business Questions Answered
+🧰 Tools & Technologies
 
-Which platform generates highest revenue?
+Power BI / Tableau / Excel (choose what you used)
 
-Which country performs best?
+Data Cleaning & Transformation
 
-What is the overall Return on Ad Spend (ROAS)?
+Interactive Filters
 
-How do campaigns perform over time?
+KPI Visuals and Trend Charts
 
-Key KPIs
+(If your version uses a specific tool, replace the generic with the correct one.)
 
-Total Revenue
+🔄 Methodology
+Data Preparation
+
+Cleaned and structured raw advertising data
+
+Standardized campaign names and platforms
+
+KPI Development
 
 Total Ad Spend
 
-ROAS
+Impressions
 
-Click-Through Rate
+Clicks
 
 Conversions
 
-Dashboard Preview
+Cost Per Click (CPC)
 
-<img width="1387" height="802" alt="image" src="https://github.com/user-attachments/assets/032ab86c-3d67-4bde-af00-bc91e25d01d7" />
-<img width="682" height="802" alt="image" src="https://github.com/user-attachments/assets/00efe724-a224-4939-8038-dd26eb97cc30" />
+Return On Ad Spend (ROAS)
 
+Dashboard Development
 
+Built visualizations for performance by:
 
-Project Workflow
+Time (week, month, year)
 
-Data imported into MySQL
+Region / Country
 
-Data cleaned and structured using SQL
+Platform
 
-Connected MySQL to Power BI & Tableau
+Campaign
 
-Built interactive dashboards
+Added slicers/filters for dynamic insights
+
+📊 Core Dashboard Features
+
+Trend analysis (spend, impressions, clicks, conversions)
+
+Regional performance comparison
+
+Channel (platform) performance breakdown
+
+Key metric cards (CPC, ROAS, conversion rate)
+
+Interactive filters for time, region, campaign
+
+📊 Key Insights
+
+Certain regions outperform others in conversion rates
+
+Platform ROI varies significantly by campaign type
+
+Ad spend peaks align with seasonal trends or major promotions
+
+Some campaigns show high impressions but low conversions
+
+Advertising dashboards help teams pinpoint which channels and strategies perform best, and which require optimization.
+
+💡 Business Recommendations
+
+Allocate more budget to high‑ROAS regions and platforms
+
+Re‑optimize campaigns with low conversion but high cost
+
+Time promotions around identified peak performance periods
+
+Focus on regions with strong cost‑per‑conversion metrics
+
+📁 Project Structure
+global-ads-analytics-dashboard/
+│── data/
+│── dashboard/
+│── visuals/
+│── README.md
+🚀 Future Improvements
+
+Add predictive modeling for ROAS forecasting
+
+Include customer segmentation performance
+
+Integrate real‑time data feeds for live dashboard updates
+
+Add automated data refresh (Power BI / Tableau)
