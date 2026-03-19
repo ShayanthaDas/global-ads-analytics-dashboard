@@ -1,115 +1,65 @@
-Global Ads Analytics Dashboard
-📌 Project Overview
+📊 Global Ads Analytics Dashboard
+1. 🎯 Business Problem
 
-This project presents an interactive business intelligence dashboard that analyzes global digital advertising performance across campaigns, regions, platforms, and time. The dashboard provides insights into key marketing metrics to help teams optimize ad spend and improve ROI.
+Global advertising campaigns involve multiple channels, regions, and audiences. Companies often struggle to determine which channels, regions, or campaigns deliver the highest ROI, making budget allocation inefficient and limiting campaign effectiveness.
 
-🎯 Business Problem
+2. 🎯 Objective
 
-Marketing teams often struggle to:
+Analyze global advertising campaign data to identify high-performing channels, regions, and audience segments, uncover patterns in ad performance, and provide actionable recommendations for maximizing ROI.
 
-Understand which campaigns deliver the best return
+3. 🛠 Tools & Technologies
 
-Compare performance across platforms and regions
+Python (Pandas, NumPy, Matplotlib, Seaborn)
 
-Track spend efficiency over time
+SQL (for data queries)
 
-Make data‑driven budget allocation decisions
+Excel
 
-This dashboard consolidates advertising data into interactive visuals that clarify marketing performance and inform strategy.
+Power BI / Tableau (dashboard visualization)
 
-🧰 Tools & Technologies
+4. 📖 Approach / Storytelling
 
-Power BI / Tableau / Excel (choose what you used)
+The project began with data cleaning and preprocessing to ensure accuracy and consistency across multiple datasets. Exploratory Data Analysis (EDA) was conducted to understand overall trends in campaign performance across channels and regions. Key metrics such as impressions, clicks, CTR, conversions, and ROI were analyzed to identify patterns and anomalies. Finally, the data was visualized in an interactive dashboard to make insights accessible for stakeholders and guide strategic decision-making.
 
-Data Cleaning & Transformation
+5. 📊 Key Insights
 
-Interactive Filters
+Certain regions consistently achieve higher ROI despite lower ad spend
 
-KPI Visuals and Trend Charts
+Social media channels drive high engagement, but not always high conversions
 
-(If your version uses a specific tool, replace the generic with the correct one.)
+Email and search campaigns show steady performance across most regions
 
-🔄 Methodology
-Data Preparation
+Audience segmentation significantly affects campaign effectiveness
 
-Cleaned and structured raw advertising data
+Seasonal trends and time-of-day patterns influence click-through and conversion rates
 
-Standardized campaign names and platforms
+6. 🧠 Business Recommendations
 
-KPI Development
+Reallocate budget to regions and channels with higher ROI
 
-Total Ad Spend
+Focus on high-performing audience segments for targeted campaigns
 
-Impressions
+Optimize low-performing campaigns using insights from high-performing campaigns
 
-Clicks
+Schedule campaigns to align with peak engagement periods
 
-Conversions
+Use dashboard insights for continuous monitoring and strategic adjustments
 
-Cost Per Click (CPC)
+7. 📈 Impact
 
-Return On Ad Spend (ROAS)
+Implementing these recommendations can increase campaign efficiency, reduce wasted ad spend, and improve overall ROI, enabling data-driven decision-making for global marketing strategies.
 
-Dashboard Development
+8. 📊 Dashboard / Results
 
-Built visualizations for performance by:
-
-Time (week, month, year)
-
-Region / Country
-
-Platform
-
-Campaign
-
-Added slicers/filters for dynamic insights
-
-📊 Core Dashboard Features
-
-Trend analysis (spend, impressions, clicks, conversions)
-
-Regional performance comparison
-
-Channel (platform) performance breakdown
-
-Key metric cards (CPC, ROAS, conversion rate)
-
-Interactive filters for time, region, campaign
-
-📊 Key Insights
-
-Certain regions outperform others in conversion rates
-
-Platform ROI varies significantly by campaign type
-
-Ad spend peaks align with seasonal trends or major promotions
-
-Some campaigns show high impressions but low conversions
-
-Advertising dashboards help teams pinpoint which channels and strategies perform best, and which require optimization.
-
-💡 Business Recommendations
-
-Allocate more budget to high‑ROAS regions and platforms
-
-Re‑optimize campaigns with low conversion but high cost
-
-Time promotions around identified peak performance periods
-
-Focus on regions with strong cost‑per‑conversion metrics
+<img width="653" height="785" alt="image" src="https://github.com/user-attachments/assets/37f4ad5b-1ed9-45c3-9434-6f9150d25116" />
+<img width="1407" height="742" alt="image" src="https://github.com/user-attachments/assets/cba3d03d-fe10-4d73-93e3-6d7a04d48c5e" />
 
 📁 Project Structure
-global-ads-analytics-dashboard/
-│── data/
-│── dashboard/
-│── visuals/
-│── README.md
-🚀 Future Improvements
+/data           → Raw & cleaned datasets  
+/notebooks      → Python scripts / analysis  
+/sql            → Queries for data extraction  
+/dashboard      → Power BI / Tableau dashboards  
+/images         → Charts and visualizations  
+🚀 Conclusion
 
-Add predictive modeling for ROAS forecasting
-
-Include customer segmentation performance
-
-Integrate real‑time data feeds for live dashboard updates
-
-Add automated data refresh (Power BI / Tableau)
+This project demonstrates the use of analytics to evaluate global advertising campaigns, identify high-impact strategies, and provide actionable insights for business decision-making.
