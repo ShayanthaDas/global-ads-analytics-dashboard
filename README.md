@@ -1,65 +1,49 @@
-📊 Global Ads Analytics Dashboard
-1. 🎯 Business Problem
+# 📊 Global Ads Analytics Dashboard
 
-Global advertising campaigns involve multiple channels, regions, and audiences. Companies often struggle to determine which channels, regions, or campaigns deliver the highest ROI, making budget allocation inefficient and limiting campaign effectiveness.
+## 1. 🎯 Business Problem
+Global advertising campaigns often lack clarity on which regions, channels, and ad types are most effective, resulting in inefficient spend and lower ROI.
 
-2. 🎯 Objective
+## 2. 🎯 Objective
+Analyze global advertising performance to identify top-performing regions and channels, optimize ad spend, and improve overall campaign efficiency.
 
-Analyze global advertising campaign data to identify high-performing channels, regions, and audience segments, uncover patterns in ad performance, and provide actionable recommendations for maximizing ROI.
+## 3. 🛠 Tools & Technologies
+- Python (Pandas, Matplotlib, Seaborn)  
+- Excel  
+- Power BI / Tableau  
+- SQL
 
-3. 🛠 Tools & Technologies
+## 4. 📖 Approach / Storytelling
+- Cleaned and consolidated multi-region ad data.  
+- Analyzed key metrics: impressions, clicks, CTR, conversions, ROI.  
+- Compared performance across regions, channels, and campaign types.  
+- Visualized results in dashboards to highlight high- and low-performing areas.
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+## 5. 📊 Key Insights
+- Some regions had high impressions but low conversions.  
+- Certain channels consistently drove higher ROI.  
+- Targeted campaigns outperformed generic ones.  
+- CTR alone did not always indicate conversion success.  
+- Seasonal and regional trends impact performance.
 
-SQL (for data queries)
+## 6. 🧠 Business Recommendations
+- Reallocate budgets to high-ROI regions/channels.  
+- Optimize targeting for high-performing demographics.  
+- Monitor multi-metric performance, not just CTR.  
+- Plan campaigns with seasonality in mind.  
 
-Excel
+## 7. 📈 Impact
+Provides actionable insights for improving global ad efficiency, reducing wasted spend, and increasing ROI.
 
-Power BI / Tableau (dashboard visualization)
+## 8. 📊 Dashboard / Visuals
+<img width="1125" height="700" alt="image" src="https://github.com/user-attachments/assets/e4e224df-edec-46a6-afe1-8607de8f6ad3" />
+<img width="1158" height="717" alt="image" src="https://github.com/user-attachments/assets/7dc30a5b-25d0-401b-8ace-c8bf5f38f4e3" />
+<img width="1127" height="723" alt="image" src="https://github.com/user-attachments/assets/7924a0a5-c5c0-4011-a059-344d1c3be074" />
+<img width="1232" height="286" alt="image" src="https://github.com/user-attachments/assets/b77d8ecd-3b8f-423c-a07a-bf21b3bba00f" />
 
-4. 📖 Approach / Storytelling
 
-The project began with data cleaning and preprocessing to ensure accuracy and consistency across multiple datasets. Exploratory Data Analysis (EDA) was conducted to understand overall trends in campaign performance across channels and regions. Key metrics such as impressions, clicks, CTR, conversions, and ROI were analyzed to identify patterns and anomalies. Finally, the data was visualized in an interactive dashboard to make insights accessible for stakeholders and guide strategic decision-making.
-
-5. 📊 Key Insights
-
-Certain regions consistently achieve higher ROI despite lower ad spend
-
-Social media channels drive high engagement, but not always high conversions
-
-Email and search campaigns show steady performance across most regions
-
-Audience segmentation significantly affects campaign effectiveness
-
-Seasonal trends and time-of-day patterns influence click-through and conversion rates
-
-6. 🧠 Business Recommendations
-
-Reallocate budget to regions and channels with higher ROI
-
-Focus on high-performing audience segments for targeted campaigns
-
-Optimize low-performing campaigns using insights from high-performing campaigns
-
-Schedule campaigns to align with peak engagement periods
-
-Use dashboard insights for continuous monitoring and strategic adjustments
-
-7. 📈 Impact
-
-Implementing these recommendations can increase campaign efficiency, reduce wasted ad spend, and improve overall ROI, enabling data-driven decision-making for global marketing strategies.
-
-8. 📊 Dashboard / Results
-
-<img width="653" height="785" alt="image" src="https://github.com/user-attachments/assets/37f4ad5b-1ed9-45c3-9434-6f9150d25116" />
-<img width="1407" height="742" alt="image" src="https://github.com/user-attachments/assets/cba3d03d-fe10-4d73-93e3-6d7a04d48c5e" />
-
-📁 Project Structure
-/data           → Raw & cleaned datasets  
-/notebooks      → Python scripts / analysis  
-/sql            → Queries for data extraction  
-/dashboard      → Power BI / Tableau dashboards  
-/images         → Charts and visualizations  
-🚀 Conclusion
-
-This project demonstrates the use of analytics to evaluate global advertising campaigns, identify high-impact strategies, and provide actionable insights for business decision-making.
+## 📁 Project Structure
+/data → Raw & cleaned datasets  
+/notebooks → Python scripts  
+/dashboard → Power BI / Tableau files  
+/images → Visualizations  
+/sql → Queries
