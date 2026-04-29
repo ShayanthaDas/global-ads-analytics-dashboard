@@ -1,40 +1,68 @@
-# 📊 Global Ads Analytics Dashboard
+Global Ads Analytics Dashboard
+Executive Summary
 
-## 1. 🎯 Business Problem
-Global advertising campaigns often lack clarity on which regions, channels, and ad types are most effective, resulting in inefficient spend and lower ROI.
+This project presents an interactive analytics dashboard to evaluate global advertising performance across multiple platforms and campaigns.
 
-## 2. 🎯 Objective
-Analyze global advertising performance to identify top-performing regions and channels, optimize ad spend, and improve overall campaign efficiency.
+The objective is to provide a unified view of key marketing KPIs such as impressions, clicks, conversions, and ROI, enabling businesses to make data-driven decisions and optimize campaign performance.
 
-## 3. 🛠 Tools & Technologies
-- Python (Pandas, Matplotlib, Seaborn)  
-- Excel  
-- Power BI / Tableau  
-- SQL
+The dashboard simplifies complex datasets into actionable insights through clear visualizations and KPI tracking.
 
-## 4. 📖 Approach / Storytelling
-- Cleaned and consolidated multi-region ad data.  
-- Analyzed key metrics: impressions, clicks, CTR, conversions, ROI.  
-- Compared performance across regions, channels, and campaign types.  
-- Visualized results in dashboards to highlight high- and low-performing areas.
+Business Problem
 
-## 5. 📊 Key Insights
-- Some regions had high impressions but low conversions.  
-- Certain channels consistently drove higher ROI.  
-- Targeted campaigns outperformed generic ones.  
-- CTR alone did not always indicate conversion success.  
-- Seasonal and regional trends impact performance.
+Marketing teams often struggle with fragmented advertising data across platforms like Google Ads, Facebook, and other channels.
 
-## 6. 🧠 Business Recommendations
-- Reallocate budgets to high-ROI regions/channels.  
-- Optimize targeting for high-performing demographics.  
-- Monitor multi-metric performance, not just CTR.  
-- Plan campaigns with seasonality in mind.  
+This creates several challenges:
 
-## 7. 📈 Impact
-Provides actionable insights for improving global ad efficiency, reducing wasted spend, and increasing ROI.
+Difficulty in tracking overall campaign performance
+Lack of visibility into ROI and cost efficiency
+Inefficient budget allocation across channels
+Inability to quickly identify underperforming campaigns
 
-## 8. 📊 Dashboard / Visuals
+This project solves these issues by creating a centralized analytics dashboard.
+
+Methodology
+1. Data Collection
+Aggregated campaign-level data including impressions, clicks, conversions, and spend
+Multi-platform advertising dataset
+2. Data Cleaning & Transformation
+Removed inconsistencies and missing values
+Standardized KPI metrics (CTR, CPC, ROI)
+Structured data for dashboard use
+3. Data Modeling
+Built relationships between campaign variables
+Created calculated measures (DAX / formulas)
+4. KPI Development
+Click-Through Rate (CTR)
+Cost Per Click (CPC)
+Conversion Rate
+Return on Investment (ROI)
+5. Dashboard Development
+Built interactive dashboard using Power BI / Tableau
+Filters for campaign type, region, and time
+KPI cards and trend visualizations
+Skills
+Data Visualization: Power BI / Tableau
+Data Analysis: KPI Analysis, EDA
+Tools: Excel (Pivot Tables, XLOOKUP), Power BI
+Programming (if used): Python (Pandas, NumPy)
+Business Skills: Marketing Analytics, Performance Optimization
+Concepts: CTR, CPC, ROI, Campaign Analysis
+Results & Business Recommendation
+Key Insights
+Certain advertising platforms outperform others in ROI and conversions
+High impressions do not always translate into high conversions
+Some campaigns show high spending but low returns
+Seasonal trends impact ad performance
+Business Recommendations
+Reallocate budget to high-performing platforms
+Optimize low-conversion campaigns with better targeting
+Focus on high-ROI regions and audience segments
+Continuously monitor KPIs using dashboards
+Next Steps
+Integrate real-time data pipeline for live dashboard updates
+Apply machine learning models for campaign performance prediction
+Conduct A/B testing for campaign optimization
+Expand dashboard with customer segmentation analysis
 <img width="1125" height="700" alt="image" src="https://github.com/user-attachments/assets/e4e224df-edec-46a6-afe1-8607de8f6ad3" />
 <img width="1158" height="717" alt="image" src="https://github.com/user-attachments/assets/7dc30a5b-25d0-401b-8ace-c8bf5f38f4e3" />
 <img width="1127" height="723" alt="image" src="https://github.com/user-attachments/assets/7924a0a5-c5c0-4011-a059-344d1c3be074" />
